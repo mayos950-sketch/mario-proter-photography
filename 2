@@ -1,0 +1,254 @@
+.hero{background:linear-gradient(#08100ba8,#08100bc4),url('gallery/greifvogel-abendhimmel.jpeg') center/cover!important}.card{cursor:zoom-in}.card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;transition:transform .35s,filter .35s}.card:hover img{transform:scale(1.025);filter:brightness(.82)}.lightbox{position:fixed;inset:0;z-index:50;background:#050a07ef;display:grid;place-items:center;padding:4vw}.lightbox[hidden]{display:none}.lightbox img{max-width:90vw;max-height:90vh}.lightbox button{position:absolute;border:0;background:transparent;color:white;font-size:4rem;cursor:pointer}.lightboxClose{right:2rem;top:.5rem}.lightboxPrev{left:2rem;top:45%}.lightboxNext{right:2rem;top:45%}@media(max-width:760px){.lightboxPrev{left:.2rem}.lightboxNext{right:.2rem}}
+
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mario Prøter Photography</title>
+  <meta name="description" content="Natur- und Wildlife-Fotografie aus Norwegen">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav wrap">
+      <a href="#start" class="brand">Mario Prøter Photography</a>
+      <div class="navlinks">
+        <a href="#galerie" data-de="Galerie" data-no="Galleri">Galerie</a>
+        <a href="#about" data-de="Über mich" data-no="Om meg">Über mich</a>
+        <a href="#kontakt" data-de="Kontakt" data-no="Kontakt">Kontakt</a>
+        <button id="langBtn" class="lang">NO</button>
+      </div>
+    </nav>
+
+    <div id="start" class="heroContent wrap">
+      <img class="logo" src="logo.png" alt="Mario Prøter Photography Logo">
+      <p class="eyebrow" data-de="Natur • Wildlife • Norwegen" data-no="Natur • Dyreliv • Norge">Natur • Wildlife • Norwegen</p>
+      <h1 data-de="Momente aus der wilden Natur" data-no="Øyeblikk fra den ville naturen">Momente aus der wilden Natur</h1>
+      <p class="lead"
+         data-de="Fotografie von Tieren, Landschaften und besonderen Augenblicken in der norwegischen Natur."
+         data-no="Fotografi av dyr, landskap og spesielle øyeblikk i norsk natur.">
+         Fotografie von Tieren, Landschaften und besonderen Augenblicken in der norwegischen Natur.
+      </p>
+      <a class="cta" href="#galerie" data-de="Galerie ansehen" data-no="Se galleriet">Galerie ansehen</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="galerie" class="section wrap">
+      <div class="sectionHead">
+        <p class="eyebrow" data-de="Auswahl" data-no="Utvalg">Auswahl</p>
+        <h2 data-de="Galerie" data-no="Galleri">Galerie</h2>
+      </div>
+      <div class="grid">
+        <figure class="card"><img src="gallery/greifvogel-abendhimmel.jpeg" alt="Greifvogel im Abendlicht"><figcaption>Greifvogel im Abendlicht</figcaption></figure>
+        <figure class="card"><img src="gallery/elch-goldenes-licht.jpeg" alt="Elch im goldenen Licht"><figcaption>Elch im goldenen Licht</figcaption></figure>
+        <figure class="card"><img src="gallery/eule-frontal.jpeg" alt="Bartkauz"><figcaption>Bartkauz</figcaption></figure>
+        <figure class="card"><img src="gallery/falke-landung.jpeg" alt="Falke bei der Landung"><figcaption>Falke bei der Landung</figcaption></figure>
+        <figure class="card"><img src="gallery/reh-im-wald.jpeg" alt="Rehbock am Waldrand"><figcaption>Rehbock am Waldrand</figcaption></figure>
+        <figure class="card"><img src="gallery/elchfamilie.jpeg" alt="Elchfamilie"><figcaption>Elchfamilie</figcaption></figure>
+        <figure class="card"><img src="gallery/rohrweihe-flug.jpeg" alt="Rohrweihe im Flug"><figcaption>Rohrweihe im Flug</figcaption></figure>
+        <figure class="card"><img src="gallery/rohrweihe-schilf.jpeg" alt="Anflug über dem Schilf"><figcaption>Anflug über dem Schilf</figcaption></figure>
+        <figure class="card"><img src="gallery/rohrweihe-beute.jpeg" alt="Jagd im Abendlicht"><figcaption>Jagd im Abendlicht</figcaption></figure>
+        <figure class="card"><img src="gallery/rohrweihe-landung.jpeg" alt="Landung im Schilf"><figcaption>Landung im Schilf</figcaption></figure>
+        <figure class="card"><img src="gallery/rohrweihe-portrait.jpeg" alt="Rohrweihe"><figcaption>Rohrweihe</figcaption></figure>
+        <figure class="card"><img src="gallery/elch-waldportrait.jpeg" alt="Elch im Fichtenwald"><figcaption>Elch im Fichtenwald</figcaption></figure>
+        <figure class="card"><img src="gallery/reh-portrait.jpeg" alt="Neugieriges Reh"><figcaption>Neugieriges Reh</figcaption></figure>
+        <figure class="card"><img src="gallery/spatz-flug.jpeg" alt="Spatz im Flug"><figcaption>Spatz im Flug</figcaption></figure>
+        <figure class="card"><img src="gallery/eule-portrait.jpeg" alt="Eulenportrait"><figcaption>Eulenportrait</figcaption></figure>
+        <figure class="card"><img src="gallery/eule-birke.jpeg" alt="Bartkauz in der Birke"><figcaption>Bartkauz in der Birke</figcaption></figure>
+        <figure class="card"><img src="gallery/eule-baumstumpf.jpeg" alt="Eule auf Baumstumpf"><figcaption>Eule auf Baumstumpf</figcaption></figure>
+        <figure class="card"><img src="gallery/steinschmaetzer.jpeg" alt="Steinschmätzer"><figcaption>Steinschmätzer</figcaption></figure>
+        <figure class="card"><img src="gallery/ohhh.jpg" alt="Sperlingskauz" loading="lazy"><figcaption>Sperlingskauz</figcaption></figure>
+        <figure class="card"><img src="gallery/okkk.jpeg" alt="Bartkauz im Wald" loading="lazy"><figcaption>Bartkauz im Wald</figcaption></figure>
+        <figure class="card"><img src="gallery/P1240197-DeNoiseAI-low-light.jpg" alt="Eichelhäher" loading="lazy"><figcaption>Eichelhäher</figcaption></figure>
+        <figure class="card"><img src="gallery/P5312481-DeNoiseAI-low-light.jpg" alt="Buchfink" loading="lazy"><figcaption>Buchfink</figcaption></figure>
+        <figure class="card"><img src="gallery/pipip1.jpeg" alt="Elche im Abendlicht" loading="lazy"><figcaption>Elche im Abendlicht</figcaption></figure>
+        <figure class="card"><img src="gallery/3p00ms.jpeg" alt="Elche im Wald" loading="lazy"><figcaption>Elche im Wald</figcaption></figure>
+        <figure class="card"><img src="gallery/537262348_10238833815094405_8493839750644901312_n.jpg" alt="Vogel im Flug" loading="lazy"><figcaption>Vogel im Flug</figcaption></figure>
+        <figure class="card"><img src="gallery/angg.jpeg" alt="Bartkauz an der Birke" loading="lazy"><figcaption>Bartkauz an der Birke</figcaption></figure>
+        <figure class="card"><img src="gallery/bøs.jpg" alt="Sperlingskauz im Winter" loading="lazy"><figcaption>Sperlingskauz im Winter</figcaption></figure>
+        <figure class="card"><img src="gallery/eo2ms.jpeg" alt="Sperlingskauz im Abendlicht" loading="lazy"><figcaption>Sperlingskauz im Abendlicht</figcaption></figure>
+        <figure class="card"><img src="gallery/euli1ms.jpeg" alt="Greifvogel im Flug" loading="lazy"><figcaption>Greifvogel im Flug</figcaption></figure>
+        <figure class="card"><img src="gallery/flight2.jpg" alt="Eule auf Baumstumpf" loading="lazy"><figcaption>Eule auf Baumstumpf</figcaption></figure>
+        <figure class="card"><img src="gallery/fpetra.jpeg" alt="Habicht im Schnee" loading="lazy"><figcaption>Habicht im Schnee</figcaption></figure>
+        <figure class="card"><img src="gallery/fuss.jpeg" alt="Habicht im Wald" loading="lazy"><figcaption>Habicht im Wald</figcaption></figure>
+        <figure class="card"><img src="gallery/gg.jpeg" alt="Habicht Portrait" loading="lazy"><figcaption>Habicht Portrait</figcaption></figure>
+        <figure class="card"><img src="gallery/gukms.jpeg" alt="Habicht bei der Landung" loading="lazy"><figcaption>Habicht bei der Landung</figcaption></figure>
+        <figure class="card"><img src="gallery/haa.jpeg" alt="Bartkauz Portrait" loading="lazy"><figcaption>Bartkauz Portrait</figcaption></figure>
+        <figure class="card"><img src="gallery/hammer(1).jpeg" alt="Bartkauz im Fichtenwald" loading="lazy"><figcaption>Bartkauz im Fichtenwald</figcaption></figure>
+        <figure class="card"><img src="gallery/stilig.jpeg" alt="Greifvogel Portrait" loading="lazy"><figcaption>Greifvogel Portrait</figcaption></figure>
+        <figure class="card"><img src="gallery/ui.jpeg" alt="Greifvogel auf Ast" loading="lazy"><figcaption>Greifvogel auf Ast</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="wrap twoCol">
+        <div>
+          <p class="eyebrow" data-de="Fotograf" data-no="Fotograf">Fotograf</p>
+          <h2 data-de="Über mich" data-no="Om meg">Über mich</h2>
+        </div>
+        <p data-de="Ich fotografiere die wilde Natur Norwegens – mit besonderem Fokus auf Tiere, Lichtstimmungen und echte, ungestellte Momente. Diese Seite ist als ruhige, hochwertige Präsentation meiner Arbeiten gedacht."
+           data-no="Jeg fotograferer den ville naturen i Norge – med særlig fokus på dyr, lysstemninger og ekte, uregisserte øyeblikk. Denne siden er laget som en rolig og eksklusiv presentasjon av arbeidene mine.">
+          Ich fotografiere die wilde Natur Norwegens – mit besonderem Fokus auf Tiere, Lichtstimmungen und echte, ungestellte Momente. Diese Seite ist als ruhige, hochwertige Präsentation meiner Arbeiten gedacht.
+        </p>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section wrap">
+      <p class="eyebrow" data-de="Anfragen & Prints" data-no="Forespørsler & print">Anfragen & Prints</p>
+      <h2 data-de="Kontakt" data-no="Kontakt">Kontakt</h2>
+      <p data-de="Für Bildanfragen, Prints oder Zusammenarbeit erreichst du mich direkt per E-Mail."
+         data-no="For bildeforespørsler, print eller samarbeid kan du kontakte meg direkte på e-post.">
+         Für Bildanfragen, Prints oder Zusammenarbeit erreichst du mich direkt per E-Mail.
+      </p>
+      <a class="cta secondary" href="mailto:mayos950@gmail.com">mayos950@gmail.com</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="year"></span> Mario Prøter Photography</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mario Prøter Photography</title>
+  <meta name="description" content="Natur- und Wildlife-Fotografie aus Norwegen">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav wrap">
+      <a href="#start" class="brand">Mario Prøter Photography</a>
+      <div class="navlinks">
+        <a href="#galerie" data-de="Galerie" data-no="Galleri">Galerie</a>
+        <a href="#about" data-de="Über mich" data-no="Om meg">Über mich</a>
+        <a href="#kontakt" data-de="Kontakt" data-no="Kontakt">Kontakt</a>
+        <button id="langBtn" class="lang">NO</button>
+      </div>
+    </nav>
+
+    <div id="start" class="heroContent wrap">
+      <img class="logo" src="logo.png" alt="Mario Prøter Photography Logo">
+      <p class="eyebrow" data-de="Natur • Wildlife • Norwegen" data-no="Natur • Dyreliv • Norge">Natur • Wildlife • Norwegen</p>
+      <h1 data-de="Momente aus der wilden Natur" data-no="Øyeblikk fra den ville naturen">Momente aus der wilden Natur</h1>
+      <p class="lead"
+         data-de="Fotografie von Tieren, Landschaften und besonderen Augenblicken in der norwegischen Natur."
+         data-no="Fotografi av dyr, landskap og spesielle øyeblikk i norsk natur.">
+         Fotografie von Tieren, Landschaften und besonderen Augenblicken in der norwegischen Natur.
+      </p>
+      <a class="cta" href="#galerie" data-de="Galerie ansehen" data-no="Se galleriet">Galerie ansehen</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="galerie" class="section wrap">
+      <div class="sectionHead">
+        <p class="eyebrow" data-de="Auswahl" data-no="Utvalg">Auswahl</p>
+        <h2 data-de="Galerie" data-no="Galleri">Galerie</h2>
+      </div>
+      <div class="grid">
+        <figure class="card"><img src="gallery/greifvogel-abendhimmel.jpeg" alt="Greifvogel im Abendlicht"><figcaption>Greifvogel im Abendlicht</figcaption></figure>
+        <figure class="card"><img src="gallery/elch-goldenes-licht.jpeg" alt="Elch im goldenen Licht"><figcaption>Elch im goldenen Licht</figcaption></figure>
+        <figure class="card"><img src="gallery/eule-frontal.jpeg" alt="Bartkauz"><figcaption>Bartkauz</figcaption></figure>
+        <figure class="card"><img src="gallery/falke-landung.jpeg" alt="Falke bei der Landung"><figcaption>Falke bei der Landung</figcaption></figure>
+        <figure class="card"><img src="gallery/reh-im-wald.jpeg" alt="Rehbock am Waldrand"><figcaption>Rehbock am Waldrand</figcaption></figure>
+        <figure class="card"><img src="gallery/elchfamilie.jpeg" alt="Elchfamilie"><figcaption>Elchfamilie</figcaption></figure>
+        <figure class="card"><img src="gallery/rohrweihe-flug.jpeg" alt="Rohrweihe im Flug"><figcaption>Rohrweihe im Flug</figcaption></figure>
+        <figure class="card"><img src="gallery/rohrweihe-schilf.jpeg" alt="Anflug über dem Schilf"><figcaption>Anflug über dem Schilf</figcaption></figure>
+        <figure class="card"><img src="gallery/rohrweihe-beute.jpeg" alt="Jagd im Abendlicht"><figcaption>Jagd im Abendlicht</figcaption></figure>
+        <figure class="card"><img src="gallery/rohrweihe-landung.jpeg" alt="Landung im Schilf"><figcaption>Landung im Schilf</figcaption></figure>
+        <figure class="card"><img src="gallery/rohrweihe-portrait.jpeg" alt="Rohrweihe"><figcaption>Rohrweihe</figcaption></figure>
+        <figure class="card"><img src="gallery/elch-waldportrait.jpeg" alt="Elch im Fichtenwald"><figcaption>Elch im Fichtenwald</figcaption></figure>
+        <figure class="card"><img src="gallery/reh-portrait.jpeg" alt="Neugieriges Reh"><figcaption>Neugieriges Reh</figcaption></figure>
+        <figure class="card"><img src="gallery/spatz-flug.jpeg" alt="Spatz im Flug"><figcaption>Spatz im Flug</figcaption></figure>
+        <figure class="card"><img src="gallery/eule-portrait.jpeg" alt="Eulenportrait"><figcaption>Eulenportrait</figcaption></figure>
+        <figure class="card"><img src="gallery/eule-im-wald.jpeg" alt="Eule im Wald"><figcaption>Eule im Wald</figcaption></figure>
+        <figure class="card"><img src="gallery/eule-birke.jpeg" alt="Bartkauz in der Birke"><figcaption>Bartkauz in der Birke</figcaption></figure>
+        <figure class="card"><img src="gallery/eule-baumstumpf.jpeg" alt="Eule auf Baumstumpf"><figcaption>Eule auf Baumstumpf</figcaption></figure>
+        <figure class="card"><img src="gallery/steinschmaetzer.jpeg" alt="Steinschmätzer"><figcaption>Steinschmätzer</figcaption></figure>
+        <figure class="card"><img src="gallery/ohhh.jpg" alt="Sperlingskauz" loading="lazy"><figcaption>Sperlingskauz</figcaption></figure>
+        <figure class="card"><img src="gallery/okkk.jpeg" alt="Bartkauz im Wald" loading="lazy"><figcaption>Bartkauz im Wald</figcaption></figure>
+        <figure class="card"><img src="gallery/P1240197-DeNoiseAI-low-light.jpg" alt="Eichelhäher" loading="lazy"><figcaption>Eichelhäher</figcaption></figure>
+        <figure class="card"><img src="gallery/P5312481-DeNoiseAI-low-light.jpg" alt="Buchfink" loading="lazy"><figcaption>Buchfink</figcaption></figure>
+        <figure class="card"><img src="gallery/pipip1.jpeg" alt="Elche im Abendlicht" loading="lazy"><figcaption>Elche im Abendlicht</figcaption></figure>
+        <figure class="card"><img src="gallery/3p00ms.jpeg" alt="Elche im Wald" loading="lazy"><figcaption>Elche im Wald</figcaption></figure>
+        <figure class="card"><img src="gallery/537262348_10238833815094405_8493839750644901312_n.jpg" alt="Vogel im Flug" loading="lazy"><figcaption>Vogel im Flug</figcaption></figure>
+        <figure class="card"><img src="gallery/angg.jpeg" alt="Bartkauz an der Birke" loading="lazy"><figcaption>Bartkauz an der Birke</figcaption></figure>
+        <figure class="card"><img src="gallery/bøs.jpg" alt="Sperlingskauz im Winter" loading="lazy"><figcaption>Sperlingskauz im Winter</figcaption></figure>
+        <figure class="card"><img src="gallery/eo2ms.jpeg" alt="Sperlingskauz im Abendlicht" loading="lazy"><figcaption>Sperlingskauz im Abendlicht</figcaption></figure>
+        <figure class="card"><img src="gallery/euli1ms.jpeg" alt="Greifvogel im Flug" loading="lazy"><figcaption>Greifvogel im Flug</figcaption></figure>
+        <figure class="card"><img src="gallery/flight2.jpg" alt="Eule auf Baumstumpf" loading="lazy"><figcaption>Eule auf Baumstumpf</figcaption></figure>
+        <figure class="card"><img src="gallery/fpetra.jpeg" alt="Habicht im Schnee" loading="lazy"><figcaption>Habicht im Schnee</figcaption></figure>
+        <figure class="card"><img src="gallery/fuss.jpeg" alt="Habicht im Wald" loading="lazy"><figcaption>Habicht im Wald</figcaption></figure>
+        <figure class="card"><img src="gallery/gg.jpeg" alt="Habicht Portrait" loading="lazy"><figcaption>Habicht Portrait</figcaption></figure>
+        <figure class="card"><img src="gallery/gms.jpeg" alt="Habicht im Licht" loading="lazy"><figcaption>Habicht im Licht</figcaption></figure>
+        <figure class="card"><img src="gallery/gukms.jpeg" alt="Habicht bei der Landung" loading="lazy"><figcaption>Habicht bei der Landung</figcaption></figure>
+        <figure class="card"><img src="gallery/haa.jpeg" alt="Bartkauz Portrait" loading="lazy"><figcaption>Bartkauz Portrait</figcaption></figure>
+        <figure class="card"><img src="gallery/hammer(1).jpeg" alt="Bartkauz im Fichtenwald" loading="lazy"><figcaption>Bartkauz im Fichtenwald</figcaption></figure>
+        <figure class="card"><img src="gallery/stilig.jpeg" alt="Greifvogel Portrait" loading="lazy"><figcaption>Greifvogel Portrait</figcaption></figure>
+        <figure class="card"><img src="gallery/ui.jpeg" alt="Greifvogel auf Ast" loading="lazy"><figcaption>Greifvogel auf Ast</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="wrap twoCol">
+        <div>
+          <p class="eyebrow" data-de="Fotograf" data-no="Fotograf">Fotograf</p>
+          <h2 data-de="Über mich" data-no="Om meg">Über mich</h2>
+        </div>
+        <p data-de="Ich fotografiere die wilde Natur Norwegens – mit besonderem Fokus auf Tiere, Lichtstimmungen und echte, ungestellte Momente. Diese Seite ist als ruhige, hochwertige Präsentation meiner Arbeiten gedacht."
+           data-no="Jeg fotograferer den ville naturen i Norge – med særlig fokus på dyr, lysstemninger og ekte, uregisserte øyeblikk. Denne siden er laget som en rolig og eksklusiv presentasjon av arbeidene mine.">
+          Ich fotografiere die wilde Natur Norwegens – mit besonderem Fokus auf Tiere, Lichtstimmungen und echte, ungestellte Momente. Diese Seite ist als ruhige, hochwertige Präsentation meiner Arbeiten gedacht.
+        </p>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section wrap">
+      <p class="eyebrow" data-de="Anfragen & Prints" data-no="Forespørsler & print">Anfragen & Prints</p>
+      <h2 data-de="Kontakt" data-no="Kontakt">Kontakt</h2>
+      <p data-de="Für Bildanfragen, Prints oder Zusammenarbeit erreichst du mich direkt per E-Mail."
+         data-no="For bildeforespørsler, print eller samarbeid kan du kontakte meg direkte på e-post.">
+         Für Bildanfragen, Prints oder Zusammenarbeit erreichst du mich direkt per E-Mail.
+      </p>
+      <a class="cta secondary" href="mailto:mayos950@gmail.com">mayos950@gmail.com</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="year"></span> Mario Prøter Photography</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+Mario Prøter Photography – gratis statische Webseite
+
+1. Öffne index.html im Browser.
+2. Ersetze deine-email@beispiel.no in index.html durch deine echte E-Mail.
+3. Ersetze die Galerie-Platzhalter später durch <img>-Elemente mit deinen Fotos.
+4. Gratis veröffentlichen:
+   - GitHub Pages
+   - Cloudflare Pages
+   - Netlify (Free Tier, sofern verfügbar)
+
+const btn=document.getElementById('langBtn');let lang='de';
+btn.addEventListener('click',()=>{lang=lang==='de'?'no':'de';document.documentElement.lang=lang;document.querySelectorAll('[data-de]').forEach(el=>{el.textContent=el.dataset[lang]});btn.textContent=lang==='de'?'NO':'DE'});
+document.getElementById('year').textContent=new Date().getFullYear();
+const cards=[...document.querySelectorAll('.card')];let current=0;
+const box=document.createElement('div');box.className='lightbox';box.hidden=true;box.innerHTML='<button class="lightboxClose" aria-label="Bild schließen">×</button><button class="lightboxPrev" aria-label="Vorheriges Bild">‹</button><img alt=""><button class="lightboxNext" aria-label="Nächstes Bild">›</button>';document.body.appendChild(box);
+const boxImg=box.querySelector('img');function show(index){current=(index+cards.length)%cards.length;const img=cards[current].querySelector('img');boxImg.src=img.src;boxImg.alt=img.alt;box.hidden=false;document.body.style.overflow='hidden'}function close(){box.hidden=true;document.body.style.overflow=''}
+cards.forEach((card,index)=>{card.tabIndex=0;card.addEventListener('click',()=>show(index));card.addEventListener('keydown',e=>{if(e.key==='Enter')show(index)})});
+box.querySelector('.lightboxClose').addEventListener('click',close);box.querySelector('.lightboxPrev').addEventListener('click',()=>show(current-1));box.querySelector('.lightboxNext').addEventListener('click',()=>show(current+1));box.addEventListener('click',e=>{if(e.target===box)close()});document.addEventListener('keydown',e=>{if(box.hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(current-1);if(e.key==='ArrowRight')show(current+1)});
+
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0e120f;color:#f3efe6;line-height:1.6}.wrap{width:min(1120px,92%);margin:auto}.hero{min-height:88vh;background:radial-gradient(circle at 70% 20%,#334532 0,#172019 35%,#0c100d 75%);display:flex;flex-direction:column}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}.brand{font-family:Georgia,serif;font-size:1.1rem;color:#f5e8c7;text-decoration:none}.navlinks{display:flex;gap:20px;align-items:center}.nav a{color:#ddd7c8;text-decoration:none}.lang{border:1px solid #9f8c61;background:transparent;color:#fff;border-radius:999px;padding:7px 11px;cursor:pointer}.heroContent{text-align:center;margin:auto;padding:60px 0 90px}.logo{width:min(620px,92%);max-height:310px;object-fit:contain;filter:drop-shadow(0 18px 35px #0008)}.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.78rem;color:#c4a96f}.hero h1{font-family:Georgia,serif;font-size:clamp(2.6rem,7vw,5.8rem);line-height:.98;max-width:900px;margin:18px auto}.lead{max-width:720px;margin:20px auto 34px;color:#d7d2c7}.cta{display:inline-block;padding:13px 22px;border-radius:999px;background:#c0a060;color:#111;text-decoration:none;font-weight:700}.section{padding:96px 0}.sectionHead h2,.section h2{font-family:Georgia,serif;font-size:clamp(2.2rem,5vw,4.3rem);margin:.15em 0 .6em}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{margin:0;background:#171c18;border:1px solid #2e382f;border-radius:18px;overflow:hidden}.placeholder{aspect-ratio:4/3;display:grid;place-items:center;background:linear-gradient(135deg,#253329,#0f1511);color:#a99568;font-weight:700;letter-spacing:.12em;text-align:center;padding:20px}.card figcaption{padding:15px 16px}.hint{color:#aaa49a;margin-top:24px}.alt{background:#151a16}.twoCol{display:grid;grid-template-columns:1fr 1.2fr;gap:70px;align-items:start}.twoCol p{font-size:1.15rem;color:#d1cbc0}.secondary{margin-top:18px;background:transparent;border:1px solid #b79b60;color:#e9d7ae}footer{border-top:1px solid #252c26;padding:30px 0;color:#8e938e;text-align:center}@media(max-width:760px){.nav{align-items:flex-start}.navlinks{gap:10px;font-size:.88rem;flex-wrap:wrap;justify-content:flex-end}.grid{grid-template-columns:1fr}.twoCol{grid-template-columns:1fr;gap:8px}.hero{min-height:80vh}.section{padding:70px 0}}
